@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package RepasoObjetos;
+package modelo;
 
 /**
  *
@@ -17,6 +17,9 @@ public class Alumno {
     private String correo;
     private Direccion direccion;
 
+    public Alumno() {
+    }
+    
     public Alumno(String nombre, int edad, String numCuenta, String correo, Direccion direccion) {
         this.nombre = nombre;
         this.edad = edad;

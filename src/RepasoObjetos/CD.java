@@ -8,6 +8,8 @@ package RepasoObjetos;
 import Utilerias.LecturaPanel;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
+import modelo.Alumno;
+import modelo.Direccion;
 
 /**
  *

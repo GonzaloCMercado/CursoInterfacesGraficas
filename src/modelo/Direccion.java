@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package RepasoObjetos;
+package modelo;
 
 /**
  *
@@ -21,6 +16,9 @@ public class Direccion {
         this.numero = numero;
     }
 
+    public Direccion() {
+    }
+    
     public String getCalle() {
         return calle;
     }
@@ -47,6 +45,13 @@ public class Direccion {
 
     @Override
     public String toString() {
-        return String.format("Dirección:\nCalle: %s\nCp: %s\nNumero: %d", calle, cp, numero);
+        /*
+        %s string
+        %d int
+        %f float
+        */
+        return String.format("Direccion: \nCalle:%s \nCodigo Postal: %s \nNumero Exterior: %d \n", calle,cp,numero);
     }
+
+    
 }

@@ -5,6 +5,7 @@
  */
 package RepasoObjetos;
 
+import modelo.Direccion;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -18,18 +19,9 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//        Alumno a = new Alumno("Torthillero",19,"12345","thor123@alumno.com",new Direccion("CalleA","1010",567));
-//        JOptionPane.showMessageDialog(null,a.toString());
-          
-          ArrayList<Alumno> alumnos = new ArrayList();
-          
-          CD.registrarAlumno(alumnos);
-          CD.registrarAlumno(alumnos);
-          
-          for (Alumno a : alumnos) {
-              //System.out.println(a);
-              JOptionPane.showMessageDialog(null,a.toString());
-        }
+        Direccion a = new Direccion("calle A", "12345", 123);
+        
+        System.out.println(a.toString());
     }
     
 }
